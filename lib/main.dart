@@ -249,8 +249,6 @@ class _HomeScreenState extends State<HomeScreen> {
           gridElements("BR.jpg", "Bedroom"),
           gridElements("K.jpg", "Kitchen"),
           gridElements("balcony.jpg", "Balcony"),
-          // gridElements("storage.jpg", "Storage"),
-          // gridElements("SR.jpg", "Study Room"),
         ],
       ),
     );
