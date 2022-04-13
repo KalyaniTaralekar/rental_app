@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'models/product.dart';
 
 void main() {
   runApp(const MyApp());
@@ -25,16 +26,6 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-  final List<String> optns = [
-    "Pro",
-    "TakeAway",
-    "Great Offers",
-    "Rating 4.0+",
-    "New Arrival",
-    "Max Safety",
-    "Fastest Delivery"
-  ];
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
